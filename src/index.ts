@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 7000;
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/my.user, myUserRoute")
+app.use("/api/my/user", MyUserRoute)
 
 app.get("/test", (req, res) => {
   res.json({ message: "Hello World!" });
