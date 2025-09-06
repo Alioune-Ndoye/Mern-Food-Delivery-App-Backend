@@ -17,8 +17,8 @@ app.use(express.json());
 
 app.use("/api/my/user", MyUserRoute)
 
-app.get("/test", (req, res) => {
-  res.json({ message: "Hello World!" });
+app.get("/health", (req, res) => {
+  res.json({ message: "health ok!" });
 });
 
 app.listen(PORT, () => {

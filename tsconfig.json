@@ -1,16 +1,20 @@
 {
   "compilerOptions": {
+    
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "target": "ES2022",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "declaration": false,
-    "declarationMap": false
+    "declarationMap": false,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "noImplicitAny": false
   },
   "include": ["src"],
   "ts-node": {
